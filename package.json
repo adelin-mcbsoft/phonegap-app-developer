@@ -36,7 +36,6 @@
     "cordova-plugin-file": "^6.0.2",
     "cordova-plugin-geolocation": "^4.0.2",
     "cordova-plugin-globalization": "^1.11.0",
-    "cordova-plugin-inappbrowser": "^3.1.0",
     "cordova-plugin-insomnia": "^4.3.0",
     "cordova-plugin-media": "^5.0.3",
     "cordova-plugin-media-capture": "^3.0.3",
@@ -96,7 +95,6 @@
         "GEOLOCATION_USAGE_DESCRIPTION": "Geolocation used for development purposes"
       },
       "cordova-plugin-globalization": {},
-      "cordova-plugin-inappbrowser": {},
       "cordova-plugin-insomnia": {},
       "cordova-plugin-media": {
         "MICROPHONE_USAGE_DESCRIPTION": " "
