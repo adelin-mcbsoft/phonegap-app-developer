@@ -16,10 +16,7 @@
     <preference name="StatusBarStyle" value="default" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="phonegap-version" value="cli-9.0.0" />
-
-    <engine name="android" spec="8.1.0" />
-    <engine name="ios" spec="^5.0.1" />
+    <preference name="phonegap-version" value="cli-8.1.1" />
 
     <access origin="*" />
     <allow-navigation href="*" />
