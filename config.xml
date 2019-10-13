@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.mcb" version="2.0.7 alpha 4" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.mcb" version="2.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>PhoneGap MCB</name>
     <description>
         Phonegap Development app., customized by MCB Soft [https://www.mcbsoft.com/]
@@ -9,11 +9,8 @@
     </author>
     <hook src="resources/script/before-test-runner.js" type="before_prepare" />
     <hook src="resources/script/after-test-runner.js" type="after_prepare" />
-    <hook src="resources/script/copy-android-push-icon.js" type="before_build" />
     <hook src="resources/script/add-version.js" type="before_build" />
     <hook src="resources/script/remove-version.js" type="after_compile" />
-    <engine name="ios" spec="4.5.5" />
-    <engine name="android" spec="7.1.2" />
     <preference name="phonegap-version" value="cli-8.1.1" />
     <preference name="StatusBarStyle" value="default" />
     <preference name="ShowSplashScreenSpinner" value="false" />
@@ -104,4 +101,6 @@
     <plugin name="cordova-plugin-ionic-webview" spec="4.1.2">
         <variable name="ANDROID_SUPPORT_ANNOTATIONS_VERSION" value="27.+" />
     </plugin>
+    <engine name="ios" spec="4.5.5" />
+    <engine name="android" spec="7.1.2" />
 </widget>

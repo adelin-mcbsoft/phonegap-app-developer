@@ -155,8 +155,7 @@
             uri = encodeURI(options.address + '/__api__/appzip');
             sync = ContentSync.sync({ src: uri, id: 'phonegapdevapp', type: 'replace', copyCordovaAssets: true, headers: theHeaders });
             sync.on('complete', function (data) {
-                alert('file://' + data.localPath + '/www/index.html');
-                window.location.href = 'file://' + data.localPath + '/www/index.html';
+                window.location.href = window.Ionic.WebView.convertFileSrc(data.localPath + '/www/index.html');;
             });
         }
 
