@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.mcb" version="2.0.8 alpha 1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.mcb" version="2.0.9 alpha 2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>PhoneGap MCB</name>
     <description>
         Phonegap Development app., customized by MCB Soft [https://www.mcbsoft.com/]
@@ -19,6 +19,9 @@
     <allow-navigation href="*" />
     <content src="index.html" />
     <platform name="ios">
+        <config-file target="*-Info.plist" parent="UILaunchStoryboardName">
+                <string>CDVLaunchScreen</string>
+        </config-file>
         <preference name="Orientation" value="all" />
         <preference name="AutoHideSplashScreen" value="false" />
         <icon height="167" src="resources/icon/ios/icon-83.5@2x.png" width="167" />
