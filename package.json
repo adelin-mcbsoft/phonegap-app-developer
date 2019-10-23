@@ -125,7 +125,8 @@
       "pushbots-cordova-plugin": {},
       "cordova-plugin-ionic-webview": {
         "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
-      }
+      },
+      "cordova-plugin-inappbrowser": {}
     }
   }
 }
