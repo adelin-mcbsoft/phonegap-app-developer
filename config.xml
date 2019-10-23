@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.mcb" version="2.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.mcb" version="2.1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>PhoneGap MCB</name>
     <description>
         Phonegap Development app., customized by MCB Soft [https://www.mcbsoft.com/]
@@ -105,6 +105,12 @@
         <variable name="ANDROID_SUPPORT_ANNOTATIONS_VERSION" value="27.+" />
     </plugin>
     <plugin name="cordova-plugin-inappbrowser" spec="~3.1.0" />
+    <plugin name="cordova-plugin-deeplinks" spec="1.1.1" />
+    <universal-links>
+        <host name="x.mcbsoft.net" scheme="https">
+            <path url="/phonegap/*" />
+        </host>
+    </universal-links>
     <engine name="ios" spec="4.5.5" />
     <engine name="android" spec="7.1.2" />
 </widget>
