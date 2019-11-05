@@ -52,12 +52,12 @@
     "eslint-config-semistandard": "^15.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "onesignal-cordova-plugin": "2.7.0",
     "phonegap-plugin-barcodescanner": "^8.1.0",
     "phonegap-plugin-contentsync": "^1.4.2",
     "phonegap-plugin-mobile-accessibility": "^1.0.5",
     "phonegap-plugin-multidex": "^1.0.0",
     "phonegap-plugin-push": "^2.3.0",
-    "pushbots-cordova-plugin": "1.6.12",
     "q": "^1.5.1"
   },
   "devDependencies": {
@@ -123,12 +123,12 @@
         "ANDROID_SUPPORT_V13_VERSION": "27.+"
       },
       "cordova-plugin-whitelist": {},
-      "pushbots-cordova-plugin": {},
       "cordova-plugin-ionic-webview": {
         "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
       },
       "cordova-plugin-inappbrowser": {},
-      "cordova-plugin-deeplinks": {}
+      "cordova-plugin-deeplinks": {},
+      "onesignal-cordova-plugin": {}
     }
   }
 }
