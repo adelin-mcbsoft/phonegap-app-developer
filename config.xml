@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.mcb" version="2.1.7" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.mcb" version="2.1.9" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>PhoneGap MCB</name>
     <description>
         Phonegap Development app., customized by MCB Soft [https://www.mcbsoft.com/]
@@ -19,6 +19,11 @@
     <allow-navigation href="*" />
     <content src="index.html" />
     <platform name="ios">
+        <config-file parent="UIBackgroundModes" target="*-Info.plist">
+            <array>
+                <string>bluetooth-central</string>
+            </array>
+        </config-file>
         <config-file parent="UILaunchStoryboardName" target="*-Info.plist">
             <string>CDVLaunchScreen</string>
         </config-file>
@@ -69,8 +74,6 @@
             <path url="/phonegap/*" />
         </host>
     </universal-links>
-    <engine name="ios" spec="4.5.5" />
-    <engine name="android" spec="7.1.2" />
     <plugin name="cordova-plugin-battery-status" spec="^2.0.3" />
     <plugin name="cordova-plugin-ble-central" spec="^1.2.4">
         <variable name="BLUETOOTH_USAGE_DESCRIPTION" value="Bluetooth development purposes" />
@@ -115,4 +118,6 @@
     <plugin name="cordova-plugin-inappbrowser" spec="~3.1.0" />
     <plugin name="cordova-plugin-deeplinks" spec="1.1.1" />
     <plugin name="onesignal-cordova-plugin" spec="2.7.0" />
+    <engine name="ios" spec="4.5.5" />
+    <engine name="android" spec="7.1.2" />
 </widget>
